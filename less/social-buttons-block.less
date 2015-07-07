@@ -1,0 +1,64 @@
+﻿.social-block {
+    padding: 20px 0 0 15px;
+    position: absolute;
+    z-index:900;
+
+    .big-circle {
+        width: 58px;
+        height: 58px;
+        margin: 0 auto 10px;
+        border-radius: 30px;
+        text-align: center;
+        position: relative;
+        padding: 14px 0 0 0;
+        border: 3px solid;
+        color: #d9d9d9;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        background-color: rgba(255,255,255, 0.1);
+
+        .counter {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            min-width: 30px;
+            height: 30px;
+            font-size: 12px;
+            padding: 6px 3px;
+            border-radius: 20px;
+            color: #fff;
+        }
+    }
+
+    .big-circle.share {
+        .counter {
+            background: #e36262;
+        }
+    }
+
+    .big-circle.share:hover {
+        color: #e36262;
+    }
+
+    .big-circle.likes {
+        .counter {
+            background: #4ac7f0;
+        }
+    }
+
+    .big-circle.likes:hover {
+        color: #4ac7f0;
+    }
+
+    .big-circle.stars {
+        .counter {
+            background: #f3c217;
+        }
+    }
+
+    .big-circle.stars:hover {
+        color: #f3c217;
+    }
+}

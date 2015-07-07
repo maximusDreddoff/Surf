@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>
+            Surf
+        </title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+
+        <!-- CSS and Scripts -->
+        <link href="css/bootstrap_override.css" rel="stylesheet">
+
+        <link href="less/layout.min.css" rel="stylesheet">
+        <link href="less/article-page.min.css" rel="stylesheet">
+        
+        <link href="plugins/wysiwyg/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="plugins/wysiwyg/css/froala_editor.min.css" rel="stylesheet" type="text/css" />
+        <link href="plugins/wysiwyg/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Basic formatting for image, video, table, code and quote. -->
+        <link href="plugins/wysiwyg/css/froala_content.min.css" rel="stylesheet" type="text/css" />
+        <!-- CSS rules for styling the block tags such as p, h1, h2, etc. -->
+        <link href="plugins/wysiwyg/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="footer-wrapper">
+            <div id="js-header"></div>
+            <script type="text/javascript">
+                $("#js-header").load("header.html", function() {
+                    var $socblock = $(".social-block");
+                    var initialOffset = $socblock.offset().top;
+                    $(window).scroll(function () {
+                        if (window.scrollY >= initialOffset) {
+                            $socblock.css("position", "fixed").css("top", "0px");
+                        } else if (window.scrollY < initialOffset) {
+                            $socblock.css({
+                                position: "absolute",
+                                top: "0"
+                            });
+                        }
+                    });
+                });
+            </script>
+
+            <div class="container">
+                <div class="row">
+                    <div class="main-wrapper">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding-left">
+                            <div class="breadcrumbs-block colored-border-top pale">
+                                <div class="padding-lr">
+                                    <a href="javascript:void(0);">Главная</a>
+                                    <a href="javascript:void(0);">Новости техники</a>
+                                    <span>Проект футуристической энергостанции в Швеции</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 no-padding-left">
+                            <div class="social-block">
+                                <div class="big-circle share">
+                                    <i class="mdi-social-share"></i>
+                                    <div class="counter">17</div>
+                                </div>
+                                <div class="big-circle likes">
+                                    <i class="mdi-action-thumb-up"></i>
+                                    <div class="counter">1,249</div>
+                                </div>
+                                <div class="big-circle stars">
+                                    <i class="mdi-toggle-star"></i>
+                                    <div class="counter">56</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 no-padding-left">
+                            <div class="padding-lr simple-box article-item">
+                                <h1>
+                                    Проект футуристической энергостанции в Швеции
+                                </h1>
+                                <div class="col-md-4 no-padding-left">
+                                    <select>
+                                        <option>Пункт 1</option>
+                                        <option>Пункт 2</option>
+                                        <option>Пункт 3</option>
+                                        <option>Пункт 4</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4 no-padding-left">
+                                    <select>
+                                        <option>Пункт 1</option>
+                                        <option>Пункт 2</option>
+                                        <option>Пункт 3</option>
+                                        <option>Пункт 4</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4 no-padding-left">
+                                    <select>
+                                        <option>Пункт 1</option>
+                                        <option>Пункт 2</option>
+                                        <option>Пункт 3</option>
+                                    </select>
+                                </div>
+                                <div class="clearfix"></div><br />
+                                <form method="POST">
+                                    <textarea id="js-wysywig">
+                                        <p>
+                                            <img class="fr-fin fr-dib" alt="Image title" src="http://upload.wikimedia.org/wikipedia/commons/b/b1/SUNY_Nanotech_Center.jpg" width="877">
+                                        </p>
+                                        <p>
+                                            Датское архитектурное агентство BIG, которым руководит архитектор Вьярке Ингелс, разработало по заказу администрации шведского города Уппсала концепт когенерационной станции, которая будет работать на биотопливе.
+                                        </p>
+                                        <p>
+                                            Когенерация — процесс совместной выработки электрической и тепловой энергии. Администрация Уппсала, города с населением в 140 тысяч человек, хочет, чтобы станция не только приносила пользу, отапливала предприятия и дома и давала электричество, но и имела оригинальный и привлекательный облик. Поэтому дизайнеры придумали для станции "бриллиантовый купол".                                    Вместо стандартного размещения агрегатов станции на большой площади, предлагается разместить их компактно, задействовав третье измерение.
+                                        </p>
+                                        <p>
+                                            Полученное предприятие можно будет накрыть куполом, который не только придаст ему эстетичности, но и позволит организовать зимний сад. Таким образом, станция сможет стать центром социальной активности местных жителей. Зимой можно будет погулять среди растений и познакомиться поближе с работой станции.                                    Среди других проектов компании BIG – уже строящаяся станция по переработке мусора, которая тоже должна извлекать из него энергию. Оригинальная концепция станции включает в себя лыжный спуск на её крыше площадью почти 3.5 километра.
+                                        </p>
+                                        <p>
+                                            Восковая фигура футболиста впервые была показана публике в декабре 2013 года. Это произошло на церемонии открытия музея Роналду, экспозиция которого включает в себя около 125 футбольных трофеев. Среди них «Золотая бутса» и «Золотой мяч», полученный спортсменом в 2008 году. По словам Роналду, музей — это подарок его поклонникам.
+                                        </p>
+                                    </textarea>
+                                </form>
+                                
+                                <!--<div class="froala-view">
+                                    Here comes the HTML edited with the Froala rich text editor.
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 no-padding-left">
+                            <div class="about-author">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <img src="https://randomuser.me/api/portraits/men/1.jpg" class="img-circle img-responsive" alt="" />
+                                    </div>
+                                    <div class="col-md-5 no-padding-left">
+                                        <ul class="list-unstyled">
+                                            <li data-toggle="tooltip" data-placement="top" title="Общее кол-во лайков">
+                                                <i class="mdi-navigation-check"></i> 2, 458
+                                            </li>
+                                            <li>
+                                                <i class="mdi-action-accessibility"></i> 2, 458
+                                            </li>
+                                            <li>
+                                                <i class="mdi-action-accessibility"></i> 2, 458
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a href="">
+                                    <h5 class="author-name">Владимир Иванов</h5>
+                                </a>
+                                <div class="small-quote">
+                                    Я начинающий web-дизайнер. Очень люблю свое дело.
+                                    Создам дизайн вашего сайта качественно и недорого.
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-fix"></div>
+        </div>
+
+        <div id="js-footer"></div>
+        <script type="text/javascript">
+            $("#js-footer").load("footer.html");
+        </script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/layout.js"></script>
+
+        <script src="plugins/selectPlugin/select.js"></script>
+        
+        <script src="http://gregfranko.com/jquery.selectBoxIt.js/js/jquery.selectBoxIt.min.js"></script>
+
+        <script src="plugins/progress-circle/circle-progress.js"></script>
+        
+        <script src="plugins/wysiwyg/js/froala_editor.min.js"></script>
+        <!-- Include IE8 JS. -->
+        <!--[if lt IE 9]>
+            <script src="plugins/wysiwyg/js/froala_editor_ie8.min.js"></script>
+        <![endif]-->
+        <script>
+            $(function () {
+                $('#js-wysywig').editable({ inlineMode: false });
+            });
+
+            $("select").selectBoxIt({
+                showEffect: "slideDown",
+                showEffectSpeed: 150,
+                hideEffect: "slideUp",
+                autoWidth: false
+            });
+        </script>
+    </body>
+</html>

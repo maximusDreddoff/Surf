@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>
+            Surf
+        </title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond2.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <!-- CSS and Scripts -->
+        <link href="css/bootstrap_override.css" rel="stylesheet">
+
+        <link href="less/layout.min.css" rel="stylesheet">
+        <link href="less/dialogs.min.css" rel="stylesheet">
+        
+        <link href="plugins/sliderpro/slider-pro.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="footer-wrapper">
+            <div id="js-header"></div>
+            <script type="text/javascript">
+                $("#js-header").load("header.html", function() {
+                    var $socblock = $(".social-block");
+                    var initialOffset = $socblock.offset().top;
+                    $(window).scroll(function () {
+                        if (window.scrollY >= initialOffset) {
+                            $socblock.css("position", "fixed").css("top", "0px");
+                        } else if (window.scrollY < initialOffset) {
+                            $socblock.css({
+                                position: "absolute",
+                                top: "0"
+                            });
+                        }
+                    });
+                });
+            </script>
+
+            <div class="container">
+                <div class="row">
+                    <div class="main-wrapper">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding-left">
+                            <div class="breadcrumbs-block colored-border-top orange">
+                                <div class="padding-lr">
+                                    <a href="javascript:void(0);">моя страница</a>
+                                    <span>диалоги</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                            <ul class="list-group">
+                                <li class="list-group-item contact-area"><img src="img/users/user1.png" class="big-avatar rounded-image"/><i class=" sm-sized-icons mdi-image-lens pull-right circle"></i>
+                                    <span class="name">Юлия Василевская</span></li>
+                                <li class="list-group-item contact-area">
+                                    <img src="img/users/user4.png" class="big-avatar rounded-image"/><i class="sm-sized-icons mdi-image-lens pull-right circle circle-blue"></i>
+                                    <span class="name">Татьяна Гришина  </span>
+                                </li>
+                                <li class="list-group-item contact-area">
+                                    <img src="img/users/user2.png" class="big-avatar rounded-image"/><i class="sm-sized-icons mdi-image-lens pull-right circle circle-blue"></i>
+                                    <span class="name">Виталий Родионов</span>
+                                </li>
+                                <li class="list-group-item contact-area">
+                                    <img src="img/users/user3.png" class="big-avatar rounded-image"/><i class="sm-sized-icons mdi-image-lens pull-right circle circle-blue"></i>
+                                    <span class="name">Дарья Степанова</span>
+                                </li>
+                                <li class="list-group-item contact-area">
+                                    <img src="img/users/user1.png" class="big-avatar rounded-image"/><i class="sm-sized-icons mdi-image-lens pull-right circle"></i>
+                                    <span class="name">Елена Нитиевская</span>
+                                </li>
+                                <li class="list-group-item contact-area">
+                                    <img src="img/users/user7.png" class="big-avatar rounded-image" /><i class="sm-sized-icons mdi-image-lens pull-right circle circle-blue"></i>
+                                    <span class="name">Вламидир Сосновский</span>
+                                </li>
+                                <li class="list-group-item contact-area">
+                                    <img src="img/users/user8.png" class="big-avatar rounded-image" /><i class="sm-sized-icons mdi-image-lens pull-right circle circle-blue"></i>
+                                    <span class="name">Светлана Хоркина</span>
+                                </li>
+                                <li class="list-group-item contact-area">
+                                    <img src="img/users/user1.png" class="big-avatar rounded-image" /><i class="sm-sized-icons mdi-image-lens pull-right circle"></i>
+                                    <span class="name">Татьяна Борисик</span>
+                                </li>
+                                <li class="list-group-item contact-area">
+                                    <img src="img/users/user6.png" class="big-avatar rounded-image" /><i class="sm-sized-icons mdi-image-lens pull-right circle"></i>
+                                    <span class="name">Константин Хохлов</span>
+                                </li>
+                                <li class="list-group-item contact-area">
+                                    <img src="img/users/user5.png" class="big-avatar rounded-image" /><i class="sm-sized-icons mdi-image-lens pull-right circle circle-blue"></i>
+                                    <span class="name">Степан Корыто</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="footer-fix"></div>
+        </div>
+
+        <div id="js-footer"></div>
+        <script type="text/javascript">
+            $("#js-footer").load("footer.html");
+        </script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/layout.js"></script>
+        <script src="plugins/parallax/parallax.min.js"></script>
+        <script src="plugins/sliderpro/jquery.sliderPro.min.js"></script>
+
+        <script src="plugins/progress-circle/circle-progress.js"></script>
+        
+        <script>
+            $('#js-shop-slider').sliderPro({
+                width: "100%",
+                height: 460,
+                thumbnailsPosition: "bottom",
+                buttons: false
+            });
+        </script>
+    </body>
+
+</html>

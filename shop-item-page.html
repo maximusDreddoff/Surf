@@ -1,0 +1,406 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>
+            Surf
+        </title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+        <!-- CSS and Scripts -->
+        <link href="css/bootstrap_override.css" rel="stylesheet">
+
+        <link href="less/layout.min.css" rel="stylesheet">
+        <link href="less/shop-item-page.min.css" rel="stylesheet">
+        
+        <link href="plugins/sliderpro/slider-pro.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="footer-wrapper">
+            <div id="js-header"></div>
+            <script type="text/javascript">
+                $("#js-header").load("header.html", function() {
+                    var $socblock = $(".social-block");
+                    var initialOffset = $socblock.offset().top;
+                    $(window).scroll(function () {
+                        if (window.scrollY >= initialOffset) {
+                            $socblock.css("position", "fixed").css("top", "0px");
+                        } else if (window.scrollY < initialOffset) {
+                            $socblock.css({
+                                position: "absolute",
+                                top: "0"
+                            });
+                        }
+                    });
+                });
+            </script>
+
+            <div class="container">
+                <div class="row">
+                    <div class="main-wrapper">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding-left">
+                            <div class="breadcrumbs-block colored-border-top pale">
+                                <div class="padding-lr">
+                                    <a href="javascript:void(0);">Главная</a>
+                                    <a href="javascript:void(0);">Каталог</a>
+                                    <span>Iphone 6</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 no-padding-left">
+                            <div class="social-block">
+                                <div class="big-circle share">
+                                    <i class="mdi-social-share"></i>
+                                    <div class="counter">17</div>
+                                </div>
+                                <div class="big-circle likes">
+                                    <i class="mdi-action-thumb-up"></i>
+                                    <div class="counter">1,249</div>
+                                </div>
+                                <div class="big-circle stars">
+                                    <i class="mdi-toggle-star"></i>
+                                    <div class="counter">56</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-11 col-md-4 col-lg-4 no-padding-left">
+                            <div class="simple-box">
+                                <div class="slider-pro" id="js-shop-slider">
+                                    <div class="sp-slides">
+                                        <div class="sp-slide">
+                                            <img class="sp-image" src="http://apple-minsk.by/files/items/1150/icon_480x390.png" />
+                                        </div>
+                                        <div class="sp-slide">
+                                            <img class="sp-image" src="http://apple-minsk.by/files/galleries/893/3688/src_480x391.jpg?1" alt="" />
+                                        </div>
+                                        <div class="sp-slide">
+                                            <img class="sp-image" src="http://apple-minsk.by/files/galleries/893/3689/src_480x391.jpg?1" alt="" />
+                                        </div>
+                                        <div class="sp-slide">
+                                            <img class="sp-image" src="http://apple-minsk.by/files/galleries/893/3690/src_480x391.jpg?1" />
+                                        </div>
+                                    </div>
+                                    <div class="sp-thumbnails">
+                                        <div class="sp-thumbnail">
+                                            <img src="http://apple-minsk.by/files/items/1150/icon_480x390.png" alt="" />
+                                        </div>
+                                        <div class="sp-thumbnail">
+                                            <img src="http://apple-minsk.by/files/galleries/893/3688/src_480x391.jpg?1" alt="" />
+                                        </div>
+                                        <div class="sp-thumbnail">
+                                            <img src="http://apple-minsk.by/files/galleries/893/3689/src_480x391.jpg?1" alt="" />
+                                        </div>
+                                        <div class="sp-thumbnail">
+                                            <img src="http://apple-minsk.by/files/galleries/893/3690/src_480x391.jpg?1" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <blockquote>
+                                    Новые смартфоны от Apple, как всегда, сопровождает большая шумиха: азиаты, афроамериканцы и выходцы из Ближнего Востока создают ажиотаж очередями в первый день продаж, Тим Кук рапортует о рекордных продажах, покупатели на что-нибудь жалуются и устраивают очередной перформанс вроде сгибания iPhone 6 Plus.
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 no-padding-left">
+                            <div class="simple-box article-item">
+                                <h1>
+                                    iPhone 6S
+                                </h1>
+                                <p class="small-descr pale-text">
+                                    Apple iOS, экран 4.7" IPS (750x1334), процессор 1400 МГц (2 ядр.), память 16 ГБ, аккумулятор 1810 мАч
+                                </p>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Стандарт связи</td>
+                                            <td>GSM (2G), EDGE (2.9G), UMTS (3G), HSPA (3.5G), HSPA+ (3.75G), LTE (4G)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Тип </td>
+                                            <td>Тип </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Операционная система</td>
+                                            <td>Apple iOS</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Размер экрана</td>
+                                            <td>4.7"</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Разрешение экрана</td>
+                                            <td>750x1334</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Оперативная память</td>
+                                            <td>1 ГБ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Энергонезависимая память</td>
+                                            <td>16 ГБ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Поддержка нескольких SIM-карт</td>
+                                            <td>x</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Встроенная камера</td>
+                                            <td>v</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Количество точек матрицы</td>
+                                            <td>8 Мп</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="parallax-window" data-parallax="scroll" data-image-src="http://gaspix.net/wp-content/uploads/2015/01/Iphone-6_large.jpg">
+                <div class="container">
+                    <div class="col-xs-12 col-sm-2 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-12 col-sm-10 col-md-11 col-lg-11">
+                        <h3>
+                            iPhone 6 стоит 3, 500 сёрфиков или:
+                        </h3>
+                        <div class="stats-block row">
+                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                                <div class="big-circle recipe pull-left">
+                                    <i class="mdi-editor-insert-drive-file"></i>
+                                </div>
+                                <div class="recipe-description clear-after">
+                                    <span>23</span>
+                                    Статьи
+                                </div>
+                                <div class="money-count">
+                                    500 сёрфиков
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                                <div class="big-circle recipe pull-left">
+                                    <i class="mdi-action-thumb-up"></i>
+                                </div>
+                                <div class="recipe-description clear-after">
+                                    <span>2000</span>
+                                    Лайков
+                                </div>
+                                <div class="money-count">
+                                    500 сёрфиков
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                                <div class="big-circle recipe pull-left">
+                                    <i class="mdi-social-share"></i>
+                                </div>
+                                <div class="recipe-description clear-after">
+                                    <span>100</span>
+                                    Репостов
+                                </div>
+                                <div class="money-count">
+                                    800 сёрфиков
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                                <div class="big-circle recipe pull-left">
+                                    <i class="mdi-image-remove-red-eye"></i>
+                                </div>
+                                <div class="recipe-description clear-after">
+                                    <span>1000</span>
+                                    Просмотров
+                                </div>
+                                <div class="money-count">
+                                    1200 сёрфиков
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-1 col-lg-1">
+                                <span class="equal">=</span>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2">
+                                <div class="big-circle recipe pull-left">
+                                    <i class="mdi-editor-attach-money"></i>
+                                </div>
+                                <div class="recipe-description clear-after">
+                                    <span>3 500</span>
+                                    Сёрфиков
+                                </div>
+                                <div class="money-count">
+                                    iPhone 6S
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="main-wrapper">
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 no-padding-left">
+                            
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding-left">
+                            <div class="comments-block colored-border-top pale simple-box padding-lr">
+                                <h6>
+                                    Комментарии
+                                </h6>
+                                <div class="comment-item">
+                                    <div class="comment-inner">
+                                        <img src="img/users/user3.png" class="user-avatar rounded-image" alt="" />
+                                        <div class="name-date clear-after">
+                                            <div class="pull-left">Юлия Василевская</div>
+                                            <div class="pull-right date">2 марта 2015 в 14:21</div>
+                                        </div>
+                                        <p>
+                                            Пользуюсь 6-кой, 2 недели до этого была 5-ка(2 года), а до этого Android.Сейчас помимо iPhone 6 пользуюсь MacBook Air и iPad mini,пользуюсь техникой Apple,не потому что фанатик ,просто вещи качественные,iPhone 6 не исключение.
+                                        </p>
+                                        <div class="function-block clear-after">
+                                            <div class="pull-right">
+                                                <button class="btn btn-sm">
+                                                    <i class="mdi-action-thumb-up"></i>
+                                                    12
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-item embedded">
+                                    <div class="comment-inner">
+                                        <img src="img/users/user6.png" class="user-avatar rounded-image" alt="" />
+                                        <div class="name-date clear-after">
+                                            <div class="pull-left">Василий Крупский</div>
+                                            <div class="pull-right date">2 марта 2015 в 14:21</div>
+                                        </div>
+                                        <p>
+                                            Ну а те, кому не нравится задняя крышка - вы его все равно будете носить в чехле! :))
+                                        </p>
+                                        <div class="function-block clear-after">
+                                            <div class="pull-right">
+                                                <button class="btn btn-sm">
+                                                    <i class="mdi-action-thumb-up"></i>
+                                                    55
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-item">
+                                    <div class="comment-inner">
+                                        <img src="img/users/user8.png" class="user-avatar rounded-image" alt="" />
+                                        <div class="name-date clear-after">
+                                            <div class="pull-left">Надежда Иванова</div>
+                                            <div class="pull-right date">2 марта 2015 в 14:21</div>
+                                        </div>
+                                        <p>
+                                            У меня золотой на 16 гигигов. Пользуюсь с октября 14, привезли с Сингапура. Сразу скажу что он там дешевле на 200-250 вражеских рублей. Когда берёшь в руки, понимаешь, что скорее всего эпл навсегда... дизайн это космос, экран идеальный для меня как по размеру так и по изображению.
+                                        </p>
+                                        <div class="function-block clear-after">
+                                            <div class="pull-right">
+                                                <button class="btn btn-sm">
+                                                    <i class="mdi-action-thumb-up"></i>
+                                                    4
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3 no-padding-left">
+                            <div class="padding-lr colored-border-top darkblue simple-box">
+                                <h6>
+                                    <a href="javascript: void(0);" title="link">
+                                        Похожие товары
+                                    </a>
+                                </h6>
+                                <div class="presents-preview">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding-left">
+                                        <div class="shop-item">
+                                            <div class="tag background-blue">
+                                                Новинка
+                                            </div>
+                                            <img src="http://content2.onliner.by/catalog/device/main/c7752584fea2a10bd929d32eeeda161f.jpg" alt="shop-item-name" />
+                                            <div class="product-info clear-after">
+                                                <div class="title cut-text">
+                                                    Samsung Galaxy S6
+                                                </div>
+                                                <div class="pull-left price">
+                                                    9625 c
+                                                </div>
+                                                <div class="pull-right stars">
+                                                    STAR
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding-left">
+                                        <div class="shop-item">
+                                            <div class="tag background-blue">
+                                                Новинка
+                                            </div>
+                                            <img src="http://content2.onliner.by/catalog/device/main/bfa058358d0cb0159a6ae28686cb1fbb.jpg" alt="shop-item-name" />
+                                            <div class="product-info clear-after">
+                                                <div class="title cut-text">
+                                                    Yotaphone 2
+                                                </div>
+                                                <div class="pull-left price">
+                                                    9625 c
+                                                </div>
+                                                <div class="pull-right stars">
+                                                    STAR
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-5 col-md-2 col-lg-2 no-padding-left">
+                            <div class="ad-item">
+                                <img src="img/banner.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-fix"></div>
+        </div>
+
+        <div id="js-footer"></div>
+        <script type="text/javascript">
+            $("#js-footer").load("footer.html");
+        </script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/layout.js"></script>
+        <script src="plugins/parallax/parallax.min.js"></script>
+        <script src="plugins/sliderpro/jquery.sliderPro.min.js"></script>
+
+        <script src="plugins/progress-circle/circle-progress.js"></script>
+        
+        <script>
+            $('#js-shop-slider').sliderPro({
+                width: "100%",
+                height: 460,
+                thumbnailsPosition: "bottom",
+                buttons: false
+            });
+        </script>
+    </body>
+
+</html>

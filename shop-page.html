@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>
+        Surf
+    </title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- CSS and Scripts -->
+    <link href="css/bootstrap_override.css" rel="stylesheet">
+
+    <link href="less/layout.min.css" rel="stylesheet">
+    <link href="less/index.min.css" rel="stylesheet">
+    <link href="less/shop-page.min.css" rel="stylesheet">
+
+    <link href="plugins/sliderpro/slider-pro.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="footer-wrapper">
+        <div id="js-header"></div>
+        <script type="text/javascript">
+            $("#js-header").load("header.html", function () {
+                var $socblock = $(".social-block");
+                var initialOffset = $socblock.offset().top;
+                $(window).scroll(function () {
+                    if (window.scrollY >= initialOffset) {
+                        $socblock.css("position", "fixed").css("top", "0");
+                    } else if (window.scrollY < initialOffset) {
+                        $socblock.css({
+                            position: "absolute",
+                            top: "0"
+                        });
+                    }
+                });
+            });
+        </script>
+
+        <div class="container">
+            <div class="row">
+                <div class="main-wrapper">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding-left">
+                        <div class="breadcrumbs-block colored-border-top blue">
+                            <div class="padding-lr">
+                                <a href="javascript:void(0);">Главная</a>
+                                <span>Каталог</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 no-padding-left">
+                        <div class="padding-lr simple-box">
+                            <div class="presents-preview">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <div class="tag background-orange">
+                                            скидка
+                                        </div>
+                                        <img src="http://thesolesupplier.co.uk/wp-content/uploads/2014/10/Adidas-Y-3-Qasa-High-Black-01.jpg" alt="shop-item-name"/>
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                Yohji Yamamoto Qasa High
+                                            </div>
+                                            <div class="pull-left price">
+                                                3233 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <div class="tag background-orange">
+                                            скидка
+                                        </div>
+                                        <img src="http://www.csneaker.com/wp-content/uploads/2011/11/23/Mens-adidas-Sport-adizero-Rose-2-Shoes-161.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                WHite Adidas shoes for sport
+                                            </div>
+                                            <div class="pull-left price">
+                                                1231 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <div class="tag background-blue">
+                                            новинка
+                                        </div>
+                                        <img src="http://www.csneaker.com/wp-content/uploads/2010/09/16/Mens-adidas-Sport-adiZERO-Boston-Shoes.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                Ordinary sport boots from Adidas
+                                            </div>
+                                            <div class="pull-left price">
+                                                1512 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <img src="http://www.csneaker.com/wp-content/uploads/2011/11/23/Mens-adidas-Sport-F50-adiZero-TRX-FG-Cleats-11.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                Football boots. Nice
+                                            </div>
+                                            <div class="pull-left price">
+                                                8462 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <img src="http://www.csneaker.com/wp-content/uploads/2011/11/23/Mens-adidas-Sport-adizero-Ghost-Shoes-4.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                Black widow class style shoes
+                                            </div>
+                                            <div class="pull-left price">
+                                                6543 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <div class="tag background-blue">
+                                            новинка
+                                        </div>
+                                        <img src="http://www.csneaker.com/wp-content/uploads/2011/05/04/Womens-adidas-Sport-adiZero-Adios-Shoes1.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                sport shoes from Adidas
+                                            </div>
+                                            <div class="pull-left price">
+                                                1322 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <img src="http://thesolesupplier.co.uk/wp-content/uploads/2014/10/Adidas-Y-3-Qasa-High-Black-01.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                Black adidas shoes
+                                            </div>
+                                            <div class="pull-left price">
+                                                9754 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <img src="http://www.csneaker.com/wp-content/uploads/2011/03/03/Mens-adidas-Sport-adiZero-Rose-Shoes1.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                Adidas shoes for sport
+                                            </div>
+                                            <div class="pull-left price">
+                                                9625 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <div class="tag background-blue">
+                                            новинка
+                                        </div>
+                                        <img src="http://www.csneaker.com/wp-content/uploads/2011/05/08/Mens-adidas-Sport-adiZero-Crazy-Light-Shoes-1.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                Blue colored sport shoes
+                                            </div>
+                                            <div class="pull-left price">
+                                                4533 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <div class="tag background-blue">
+                                            новинка
+                                        </div>
+                                        <img src="http://www.csneaker.com/wp-content/uploads/2011/11/23/Mens-adidas-Sport-adizero-Rose-2-Shoes-161.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                Men’s adidas Sport adizero Rose 2 Shoes
+                                            </div>
+                                            <div class="pull-left price">
+                                                2333 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <div class="tag background-blue">
+                                            новинка
+                                        </div>
+                                        <img src="http://thesolesupplier.co.uk/wp-content/uploads/2014/10/Adidas-Y-3-Qasa-High-Black-01.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                Yohji Yamamoto Qasa High
+                                            </div>
+                                            <div class="pull-left price">
+                                                6543 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding-left">
+                                    <div class="shop-item">
+                                        <img src="http://www.csneaker.com/wp-content/uploads/2011/05/08/Mens-adidas-Sport-adiZero-Crazy-Light-Shoes.jpg" alt="shop-item-name" />
+                                        <div class="product-info clear-after">
+                                            <div class="title cut-text">
+                                                Just another sport-item 
+                                            </div>
+                                            <div class="pull-left price">
+                                                1323 c
+                                            </div>
+                                            <div class="pull-right stars">
+                                                STAR
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--sideBar-right-->
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 no-padding-left">
+                        <div class="colored-border-top pale">
+                            <div class="padding-lr">
+                                <h6>
+                                    поиск по магазину
+                                </h6>
+                            </div>
+                        </div>
+                        <input class="form-control bottom-styled-input" type="text" placeholder="введите название товара" />
+                        <div class="colored-border-top pale">
+                            <div class="padding-lr">
+                                <h6>
+                                    Фильтр по цене
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="filter">
+                            Цена от <input class="form-control bottom-styled-input input-little-width" type="text" placeholder="5" />
+                            до <input class="form-control bottom-styled-input input-little-width" type="text" placeholder="98" />
+                            серфиков
+                        </div>
+
+                        <div class="colored-border-top pale">
+                            <div class="padding-lr">
+                                <h6>
+                                    Категории товаров
+                                </h6>
+                                <h5>
+                                    <a class="colored-icons-red" href="">Гаджеты и электроприборы</a>
+                                </h5>
+                                <ul class="no-padding-left list-unstyled">
+                                    <li><a href="">Телефоны</a></li>
+                                    <li>
+                                        <a href="">Планшеты</a>
+                                    </li>
+                                    <li>
+                                        <a href="">MP3-плееры</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Умные часы</a>
+                                    </li>
+                                    <li> <a href="">Наушники</a></li>
+                                </ul>
+                                <h5>
+                                    <a class="colored-icons-red" href="">Одежда</a>
+                                </h5>
+                                <ul class="no-padding-left list-unstyled">
+                            
+                                    <li><a href="">Куртки</a></li>
+                                    <li>
+                                        <a href="">Шатны</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Майки</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Обувь</a>
+                                    </li>
+                                </ul>
+                                <h5>
+                                    <a class="colored-icons-red" href="">Разное</a>
+                                </h5>
+                                <ul class="no-padding-left list-unstyled">
+                                    <li><a href="">Велосипеды</a></li>
+                                    <li>
+                                        <a href="">Сумки</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Книги</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-fix"></div>
+    </div>
+
+    <div id="js-footer"></div>
+    <script type="text/javascript">
+        $("#js-footer").load("footer.html");
+    </script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="plugins/parallax/parallax.min.js"></script>
+    <script src="plugins/sliderpro/jquery.sliderPro.min.js"></script>
+
+    <script src="plugins/progress-circle/circle-progress.js"></script>
+
+    <script>
+        $('#js-shop-slider').sliderPro({
+            width: "100%",
+            height: 460,
+            thumbnailsPosition: "bottom",
+            buttons: false
+        });
+    </script>
+</body>
+
+</html>

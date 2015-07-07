@@ -1,0 +1,35 @@
+body {
+  background-image: url(/img/Authentication.png);
+  background-size: cover;
+}
+body .aut {
+  margin-top: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+body .authef-title {
+  line-height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+}
+body .main-info-container {
+  padding: 10px;
+  background-color: white;
+}
+body .main-info-container button {
+  margin: 5px;
+}
+body .row a {
+  font-size: 12px;
+}
+body .underline-links i {
+  float: right;
+}
+body .links {
+  color: rgba(255, 255, 255, 0.7);
+}
+body .empty-block {
+  margin-bottom: 100px;
+}

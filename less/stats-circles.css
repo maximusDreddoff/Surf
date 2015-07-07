@@ -1,0 +1,139 @@
+.parallax-window {
+  min-height: 200px;
+  background: transparent;
+  color: #fff;
+  position: relative;
+}
+.parallax-window h3 {
+  font-weight: 300;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.parallax-window:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 33, 50, 0.8);
+  position: absolute;
+}
+.stats-block {
+  position: relative;
+}
+.stats-block .biggest-circle {
+  height: 135px;
+  width: 135px;
+  border-radius: 75px;
+  border: 3px solid;
+  text-align: center;
+  border-color: rgba(255, 255, 255, 0.2);
+  font-size: 30px;
+  line-height: 135px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.stats-block .biggest-circle canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.stats-block .author-raiting {
+  position: relative;
+}
+.stats-block .author-raiting .author-avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 75px;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+}
+.stats-block .author-raiting canvas {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+}
+.stats-block .big-circle {
+  width: 58px;
+  height: 58px;
+  display: inline-block;
+  margin: 0 25px 10px;
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  padding: 14px 0 0 0;
+  border: 3px solid;
+  border-color: #ffffff;
+  color: #fff;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  opacity: 0.4;
+}
+.stats-block .big-circle .counter {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  min-width: 30px;
+  height: 30px;
+  font-size: 12px;
+  padding: 6px 3px;
+  border-radius: 20px;
+  color: #000;
+  background: #ffffff;
+}
+.stats-block .big-circle .description {
+  font-size: 12px;
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+.stats-block .big-circle:hover {
+  opacity: 1;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+.stats-block .big-circle:hover .counter {
+  color: #fff;
+}
+.stats-block .big-circle.share:hover {
+  color: #e36262;
+}
+.stats-block .big-circle.share:hover .counter {
+  background: #e36262;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.stats-block .big-circle.likes:hover {
+  color: #4ac7f0;
+}
+.stats-block .big-circle.likes:hover .counter {
+  background: #4ac7f0;
+}
+.stats-block .big-circle.stars:hover {
+  color: #f3c217;
+}
+.stats-block .big-circle.stars:hover .counter {
+  background: #f3c217;
+}
+.stats-block .big-circle.recipe {
+  color: #fff;
+  opacity: 1;
+  margin: 0 0 10px;
+}
+.stats-block .recipe-description {
+  text-align: center;
+}
+.stats-block .recipe-description span {
+  font-size: 26px;
+  display: block;
+}
+.stats-block .money-count {
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.stats-block .equal {
+  font-size: 77px;
+  line-height: 50px;
+}

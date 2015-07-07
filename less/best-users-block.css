@@ -1,0 +1,58 @@
+.best-users .user-item {
+  padding: 0 2px 4px;
+}
+.best-users .user-item .user-inner {
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.best-users .user-item .user-inner .background {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  -moz-transition: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.best-users .user-item .user-inner .user-information {
+  position: relative;
+  z-index: 2;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 12px;
+}
+.best-users .user-item .user-inner a {
+  color: #fff;
+}
+.best-users .user-item .user-inner i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.best-users .user-item .user-inner .mdi-action-thumb-up {
+  color: #e36262;
+}
+.best-users .user-item .user-inner .mdi-communication-chat {
+  color: #39c2ef;
+}
+.best-users .user-item .user-inner .mdi-editor-insert-drive-file {
+  color: #F9D486;
+}
+.best-users .user-item .user-inner ul li {
+  margin: 10px 0;
+}
+.best-users :hover .background {
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.best-users .col-xs-6.col-sm-4.col-md-3.col-lg-3 .background {
+  top: -45%;
+}

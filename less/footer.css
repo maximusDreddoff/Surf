@@ -1,0 +1,28 @@
+.footer-style {
+  background-color: #222222;
+  padding: 18px 0;
+}
+.footer-style .container {
+  background: url("../img/footer-logo.png") center left;
+  background-repeat: no-repeat;
+}
+.footer-style ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.footer-style ul a {
+  color: #888888;
+  text-decoration: none;
+}
+.footer-style h5 {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 29px;
+}
+.footer-style .copyright {
+  font-size: 14px;
+  color: #565656;
+  padding-top: 28px;
+}
